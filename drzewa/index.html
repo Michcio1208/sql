@@ -1,0 +1,39 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<title> Zarzad zieleni</title>
+<body>
+
+    <h1>
+Zarzad zielenia
+</h1>
+<p>    aplikacja umozliwia </p>
+<ul>
+    <li>dodawanie drzew i ulic </li>
+    <li> wyswietlanie listy ulic lub drzew </li>
+</ul>
+<br/>
+<h2> dodawanie</h2>
+<h3> dodaj drzewo </h3>
+<form     action="dodaj_drzewo.php" method="post">
+GATUNEK:
+<input type="text" name="gatunek" maxlength="50">
+RODZAJ:
+<select name="rodzaj">
+    <option>lisiaste</option>
+    <option>iglaste</option>
+</select>
+<input type="submit" value="Zapisz">
+</form>
+<h3>dodaj ulice</h3>
+<form     action="dodaj_ulice.php" method="post">
+ULICA:
+<input type="text" name="ulica" maxlength="50">
+<input type="submit" value="Zapisz">
+
+</form>
+
+</body>
+
+</html>
